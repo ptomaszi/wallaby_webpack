@@ -3,6 +3,10 @@ var wallabyWebpack = require('wallaby-webpack');
 var webpackConfig = require('./webpack');
 delete webpackConfig.entry;
 webpackConfig.resolve.extensions = ['.js'];
+webpackConfig.entryPatterns = [
+  'src/di.js',
+  'test/*JasmineSpec.js'
+];
 
 var wallabyPostprocessor = wallabyWebpack(webpackConfig);
 
