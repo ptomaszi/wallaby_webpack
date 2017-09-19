@@ -2,7 +2,7 @@
 
 @Component({
     selector: 'my-component',
-    templateUrl: 'src/my.component.html'
+    templateUrl: './my.component.html'
 })
 export class MyComponent {
     constructor() {
