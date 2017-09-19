@@ -19,7 +19,7 @@ module.exports = {
     },
     module: {
         rules: [
-            { test: "\.html$", loader: "html-tpl" }
+            // { test: "\.html$", loader: "html-tpl" }
         ]
     }
 }
